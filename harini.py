@@ -40,14 +40,13 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# Portfolio title
 st.title("My Portfolio")
 st.markdown("<h2 style='background: rgb(2,0,36);background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 9%, rgba(0,212,255,1) 50%, rgba(0,212,255,1) 97%);; color: black;'>HARINI</h2>", unsafe_allow_html=True)
 st.markdown(" ")
-# Introduction
+
 st.write("Welcome to my portfolio! I'm excited to share my projects and passions with you. Dive in to see what I've been working on! Creativity meets dedication, and each project is a step forward in my journey. Explore and join me on this path of growth and innovation. Thanks for stopping by!")
 st.markdown(" ")
-# Columns for designation and program
+
 col1, col2 = st.columns(2)
 
 with col1:
@@ -110,7 +109,7 @@ with col1:
     st.markdown('<div style="background-color:aqua;color:black;padding:20px;border-radius:35px;">Phone: 999776533</div>', unsafe_allow_html=True)
 
 with col2:
-    st.markdown('<div style="background-color:aqua;color:black;padding:20px;border-radius:35px;">Email: your.email@example.com</div>', unsafe_allow_html=True)
+    st.markdown('<div style="background-color:aqua;color:black;padding:20px;border-radius:35px;">Email: harinimurugesan@gmail.com</div>', unsafe_allow_html=True)
 
 
 
